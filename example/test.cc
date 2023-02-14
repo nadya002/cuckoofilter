@@ -48,5 +48,7 @@ int main(int argc, char **argv) {
   std::cout << "false positive rate is "
             << 100.0 * false_queries / total_queries << "%\n";
 
+  std::cout << filter.Info();
+
   return 0;
 }
